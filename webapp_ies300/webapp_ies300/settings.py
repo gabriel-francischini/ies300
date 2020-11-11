@@ -25,7 +25,12 @@ SECRET_KEY = 'nyk@f)pq@)00+^2qzoezwi2pgs!hk6f%$48&=%3yy$)j4cjy#j'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '179.250.10.195',
+    'app-engsoft.zapto.org'
+]
 
 
 # Application definition
